@@ -38,6 +38,6 @@ public class DeckStructure {
 
     public void dealCard(DeckStructure playerhand){
         playerhand.cards.add(cards.get(0));//move the first card into the player's hand
-        cards.remove(0);//remove the same card from the deck
+        cards.remove(0);//remove the same card from the deck and changed nothing!
     }
 }
